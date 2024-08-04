@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpBenchmarks;
+
 class Result {
     
     /** @param ResultItem[] $items */
@@ -52,13 +54,4 @@ class Result {
         }
         echo "+------------>\n";
     }
-}
-
-readonly class ResultItem {
-    public function __construct(
-        public string $name,
-        public int $iterations,
-        public float $time,
-        public float $faster = 0,
-    ) {}
 }

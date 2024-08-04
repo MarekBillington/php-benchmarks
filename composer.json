@@ -1,0 +1,16 @@
+{
+    "name": "marekbillington/php-benchmarks",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PhpBenchmarks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MarekBillington",
+            "email": "MarekBillington@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
