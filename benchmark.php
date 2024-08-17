@@ -6,6 +6,6 @@ include __DIR__."/vendor/autoload.php";
 
 include "src/tests/AnonymousFunctions.php";
 
-$test = new \PhpBenchmarks\Tests\ForLoops();
+$test = new \PhpBenchmarks\Tests\AnonymousFunctions();
 
 $test->run();
